@@ -1,24 +1,31 @@
 {
-  "name": "bkbp",
+  "name": "space-time-complexity",
   "version": "1.0.0",
-  "description": "A light weight full featured boiler plate",
+  "description": "Exercises to help with understanding of Big O notation",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
-    "updateSnap": "npm test -- -u",
+    "jest": "jest --coverage --watchAll",
+    "test": "npm jest -- -u",
     "build": "webpack -w --config webpack.config.js --mode production",
     "start": "webpack-dev-server --open",
     "server": "nodemon server/server.js"
   },
   "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupFiles": [
+      "./src/setupTests.js"
+    ],
     "collectCoverage": true,
-    "coverageReporters": [
-      "html"
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kptkrunch/berryKrunchyBoilerPlate"
+    "url": "https://github.com/Kptkrunch/SpaceTimeComplexity"
   },
   "author": "Joshua Edwards",
   "license": "MIT",
@@ -37,17 +44,15 @@
     "@babel/preset-react": "^7.10.4",
     "@babel/register": "^7.11.5",
     "@types/jest": "^26.0.14",
-    "@wdio/cli": "^6.5.2",
-    "@wdio/local-runner": "^6.5.2",
-    "@wdio/mocha-framework": "^6.5.0",
-    "@wdio/spec-reporter": "^6.4.7",
-    "@wdio/sync": "^6.5.0",
     "axios": "^0.20.0",
+    "babel-jest": "^26.5.0",
     "babel-loader": "^8.1.0",
-    "chromedriver": "^85.0.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "enzyme-to-json": "^3.6.1",
     "express": "^4.17.1",
+    "jest": "^26.5.0",
     "nodemon": "^2.0.4",
-    "wdio-chromedriver-service": "^6.0.4",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"

@@ -1,14 +1,12 @@
-import React, { useState, useEffect } from 'react';
 
-const App = () => {
+const timeComp1 = () => {
+        let answer = 'FILL ME IN';
 
-    return (
-
-        <div>
-            <h1>Hello World</h1>
-        </div>
-    )
+        return answer;
 }
 
-export default App;
+module.exports = {
+    timeComp1,
+    
+}
 
