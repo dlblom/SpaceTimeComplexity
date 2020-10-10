@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1602292257530" clover="3.2.0">
-  <project timestamp="1602292257530" name="All files">
+<coverage generated="1602292808855" clover="3.2.0">
+  <project timestamp="1602292808855" name="All files">
     <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="31" coveredelements="31" complexity="0" loc="25" ncloc="25" packages="1" files="1" classes="1"/>
     <file name="App.jsx" path="/Users/joshuaedwards/Desktop/Time and Space/SpaceTimeComplexity/src/App.jsx">
       <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
@@ -17,18 +17,18 @@
       <line num="55" count="2" type="stmt"/>
       <line num="58" count="1" type="stmt"/>
       <line num="60" count="1" type="stmt"/>
+      <line num="75" count="2" type="stmt"/>
       <line num="76" count="2" type="stmt"/>
-      <line num="77" count="2" type="stmt"/>
-      <line num="80" count="1" type="stmt"/>
-      <line num="82" count="1" type="stmt"/>
+      <line num="79" count="1" type="stmt"/>
+      <line num="81" count="1" type="stmt"/>
+      <line num="94" count="2" type="stmt"/>
       <line num="95" count="2" type="stmt"/>
-      <line num="96" count="2" type="stmt"/>
-      <line num="99" count="1" type="stmt"/>
-      <line num="101" count="1" type="stmt"/>
+      <line num="98" count="1" type="stmt"/>
+      <line num="100" count="1" type="stmt"/>
+      <line num="120" count="2" type="stmt"/>
       <line num="121" count="2" type="stmt"/>
-      <line num="122" count="2" type="stmt"/>
-      <line num="125" count="1" type="stmt"/>
-      <line num="128" count="1" type="stmt"/>
+      <line num="124" count="1" type="stmt"/>
+      <line num="127" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

@@ -64,7 +64,6 @@ const question_4 = () => {
 //     if(word.length > 10) word = word.slice(0,10);
 //     let newWord = '';
 //     for(let i = 0; i < word.length; i++) {
-
 //         for(let i = 0; i < word.length; i++) {
 //             newWord.concat(word[i]);
 //         }

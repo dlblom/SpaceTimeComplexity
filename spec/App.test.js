@@ -20,42 +20,42 @@ describe('Easy questions', () => {
     })
 
     describe('question_3', () => {
-        it('Should return time complexity of O()', () => {
-            expect(App.question_3().time).toEqual('');
+        it('Should return the time complexity of multiplyNums()', () => {
+            expect(App.question_3().time).toEqual('linear');
         })
     
-        it('Should return a space complexity of O()', () => {
-            expect(App.question_3().space).toEqual('');
+        it('Should return the space complexity of multiplyNums()', () => {
+            expect(App.question_3().space).toEqual('constant');
         })
     })
 
     describe('question_4', () => {
-        it('Should return time complexity of O()', () => {
+        it('Should return the time complexity of wackyWord()', () => {
             expect(App.question_4().time).toEqual('constant');
         })
     
-        it('Should return a space complexity of O()', () => {
+        it('Should return the space complexity of wackyWord()', () => {
             expect(App.question_4().space).toEqual('constant');
         })
     })
 
     describe('question_5', () => {
-        it('Should return time complexity of O()', () => {
-            expect(App.question_5().time).toEqual('constant');
+        it('Should return the time complexity of badgerSong()', () => {
+            expect(App.question_5().time).toEqual('linear');
         })
     
-        it('Should return a space complexity of O()', () => {
-            expect(App.question_5().space).toEqual('constant');
+        it('Should return the space complexity of badgerSong()', () => {
+            expect(App.question_5().space).toEqual('quadratic');
         })
     })
 
     describe('question_6', () => {
-        it('Should return time complexity of O()', () => {
-            expect(App.question_6().time).toEqual('constant');
+        it('Should return the time complexity of hotMessOfArrays()', () => {
+            expect(App.question_6().time).toEqual('O(1)');
         })
     
-        it('Should return a space complexity of O()', () => {
-            expect(App.question_6().space).toEqual('constant');
+        it('Should return the space complexity of hotMessOfArrays()', () => {
+            expect(App.question_6().space).toEqual('O(1)');
         })
     })
 })
