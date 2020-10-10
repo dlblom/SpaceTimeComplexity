@@ -135,7 +135,7 @@ let explanation_6 = '';
 // Do not change anything below this line
 // ==========================================
 
-module.exports = {
+exports = {
     question_1, question_2, question_3,
     question_4, question_5, question_6
 }
