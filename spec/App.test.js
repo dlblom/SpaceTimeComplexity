@@ -1,6 +1,7 @@
 const App = require('../src/App');
 
 describe('Easy questions', () => {
+
     describe('question_1', () => {
         it('Should return the time complexity of add()', () => {
             expect(App.question_1().time).toEqual('constant')
@@ -41,11 +42,11 @@ describe('Easy questions', () => {
 
     describe('question_5', () => {
         it('Should return the time complexity of badgerSong()', () => {
-            expect(App.question_5().time).toEqual('linear');
+            expect(App.question_5().time).toEqual('O(n)');
         })
     
         it('Should return the space complexity of badgerSong()', () => {
-            expect(App.question_5().space).toEqual('quadratic');
+            expect(App.question_5().space).toEqual('O(n^2)');
         })
     })
 

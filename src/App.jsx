@@ -8,6 +8,13 @@
 // Name, would be answering using "constant", "linear", "logarithic", "quadratic", or "exponential"
 // Big'O, would be answering using "O(1)", "O(n)", "O(n^2)", "O(log n)", "O(n log n)", "O(2^n)"
 
+// Lastly, you need to justify your answer.  fill in the explanation variable
+// with an explanation that is at least 150 characters long.
+
+// ============================
+// ROUND 1:
+// ============================
+
 const question_1 = () => {
 
 // const add = (num) => {
@@ -15,7 +22,7 @@ const question_1 = () => {
 // };
 
     // answer using "Name"
-    let answer = { time: 'constant', space: 'constant'};
+    let answer = { time: '', space: ''};
     return answer;
 }
 
@@ -123,7 +130,11 @@ const question_6 = () => {
 
 let explanation_6 = '';
 
+
+// ==========================================
 // Do not change anything below this line
+// ==========================================
+
 module.exports = {
     question_1, question_2, question_3,
     question_4, question_5, question_6
