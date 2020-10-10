@@ -19,6 +19,8 @@ const question_1 = () => {
     return answer;
 }
 
+let explanation_1 = '';
+
 const question_2 = () => {
 
 // const addLots = (num) => {
@@ -30,55 +32,102 @@ const question_2 = () => {
 //     return total;
 // }
 
-    // answer using "Name"
+    // answer using "Big'O"
     let answer = { time: '', space: ''};
     return answer;
 }
+
+let explanation_2 = '';
 
 const question_3 = () => {
 
-    // const multiplyNums = (num) => {
-    //     if(num < 10) num = 10;
-    //     let total;
-    //     for(let i = num; i > 0; i--) {
-    //         total *= i;
-    //     }
-    //     return total;
-    // }
+// const multiplyNums = (num) => {
+//     if(num < 10) num = 10;
+//     let total;
+//     for(let i = num; i > 0; i--) {
+//         total *= i;
+//     }
+//     return total;
+// }
 
     // answer using "Name"
     let answer = { time: '', space: ''};
     return answer;
 }
+
+let explanation_3 = '';
 
 const question_4 = () => {
 
+// const wackyWord = (word) => {
+//     word = word || 'jabberwocky';
+//     if(word.length > 10) word = word.slice(0,10);
+//     let newWord = '';
+//     for(let i = 0; i < word.length; i++) {
+
+//         for(let i = 0; i < word.length; i++) {
+//             newWord.concat(word[i]);
+//         }
+//     }
+//     return newWord;
+// }
 
     // answer using "Name"
     let answer = { time: '', space: ''};
     return answer;
 }
+
+let explanation_4 = '';
 
 const question_5 = () => {
 
+// const badgerSong = (num, song) => {
+//     song = song || [];
+//     let badger = 'badger';
+//     song.push(badger);
+//     while(num > 0) {
+//         badgerSong(num - 1, song);
+//     }
+//     return song.concat(['mushroom', 'mushroom', '!!!']);
+// }
 
-    // answer using "Name"
+    // answer using "Big'O"
     let answer = { time: '', space: ''};
     return answer;
 }
+
+let explanation_5 = '';
 
 const question_6 = () => {
 
+// const hotMessOfArrays = () => {
+//     let countdown = 2;
+//     while(countdown > 0) {
+//         let total;
+//         for(let i = 0; i < 3; i++) {
+//             total += countdown * 2;
+//             let stuffArray = [];
+//             for(let i = 100; i > 0; i--) {
+//                 total -= i;
+//                 let someArray = []
+//                 stuffArray.push(someArray)
+//             }
+//         }
+//     }
+//     return total;
+// }
 
-    // answer using "Name"
+    // answer using "Big'O"
     let answer = { time: '', space: ''};
     return answer;
 }
 
+let explanation_6 = '';
 
 // Do not change anything below this line
 module.exports = {
     question_1, question_2, question_3,
     question_4, question_5, question_6
 }
+
 

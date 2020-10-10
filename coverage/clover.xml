@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1602284064133" clover="3.2.0">
-  <project timestamp="1602284064133" name="All files">
-    <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="25" coveredelements="25" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
+<coverage generated="1602292257530" clover="3.2.0">
+  <project timestamp="1602292257530" name="All files">
+    <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="31" coveredelements="31" complexity="0" loc="25" ncloc="25" packages="1" files="1" classes="1"/>
     <file name="App.jsx" path="/Users/joshuaedwards/Desktop/Time and Space/SpaceTimeComplexity/src/App.jsx">
-      <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <line num="11" count="1" type="stmt"/>
       <line num="18" count="2" type="stmt"/>
       <line num="19" count="2" type="stmt"/>
       <line num="22" count="1" type="stmt"/>
-      <line num="34" count="2" type="stmt"/>
-      <line num="35" count="2" type="stmt"/>
-      <line num="38" count="1" type="stmt"/>
-      <line num="50" count="2" type="stmt"/>
-      <line num="51" count="2" type="stmt"/>
-      <line num="54" count="1" type="stmt"/>
-      <line num="58" count="2" type="stmt"/>
-      <line num="59" count="2" type="stmt"/>
-      <line num="62" count="1" type="stmt"/>
-      <line num="66" count="2" type="stmt"/>
-      <line num="67" count="2" type="stmt"/>
-      <line num="70" count="1" type="stmt"/>
-      <line num="74" count="2" type="stmt"/>
-      <line num="75" count="2" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="36" count="2" type="stmt"/>
+      <line num="37" count="2" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="54" count="2" type="stmt"/>
+      <line num="55" count="2" type="stmt"/>
+      <line num="58" count="1" type="stmt"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="76" count="2" type="stmt"/>
+      <line num="77" count="2" type="stmt"/>
       <line num="80" count="1" type="stmt"/>
+      <line num="82" count="1" type="stmt"/>
+      <line num="95" count="2" type="stmt"/>
+      <line num="96" count="2" type="stmt"/>
+      <line num="99" count="1" type="stmt"/>
+      <line num="101" count="1" type="stmt"/>
+      <line num="121" count="2" type="stmt"/>
+      <line num="122" count="2" type="stmt"/>
+      <line num="125" count="1" type="stmt"/>
+      <line num="128" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

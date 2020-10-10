@@ -11,11 +11,11 @@ describe('Easy questions', () => {
     })
     describe('question_2', () => {
         it('Should return the time complexity of addLots()', () => {
-            expect(App.question_2().time).toEqual('constant');
+            expect(App.question_2().time).toEqual('O(1)');
         })
     
         it('Should return the space complexity of addLots()', () => {
-            expect(App.question_2().space).toEqual('constant');
+            expect(App.question_2().space).toEqual('O(1)');
         })
     })
 
