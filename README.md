@@ -4,5 +4,4 @@ This is a group of exercises to help you understand how time and space complexit
 
 To get started:
 1. npm install
-2. npm run build
-3. npm run server
+2. Open index.html in the browser
