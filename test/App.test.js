@@ -1,13 +1,9 @@
-// const App = require('../src/App.jsx');
-// const expect = require('chai').expect;
-// const answerKey = require('./answerKey.js');
 const expect = chai.expect;
 describe('Easy questions', () => {
 
     describe('question_1', () => {
         it('Should return the time complexity of add()', () => {
             expect(question_1().time).to.equal(q1.time);
-            console.log(expect(question_1).time).to.equal(q1.time);
         })
         it('Should return the space complexity of add()', () => {
             expect(question_1().space).to.equal(q1.space)
