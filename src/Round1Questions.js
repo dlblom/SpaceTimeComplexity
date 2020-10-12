@@ -8,9 +8,6 @@
 // Name, would be answering using "constant", "linear", "logarithic", "quadratic", or "exponential"
 // Big'O, would be answering using "O(1)", "O(n)", "O(n^2)", "O(log n)", "O(n log n)", "O(2^n)"
 
-// Lastly, you need to justify your answer.  fill in the explanation variable
-// with an explanation that is at least 150 characters long.
-
 // ============================
 // ROUND 1:
 // ============================
@@ -25,8 +22,6 @@ const question_1 = () => {
     let answer = { time: '', space: ''};
     return answer;
 }
-
-let explanation_1 = '';
 
 const question_2 = () => {
 
@@ -44,8 +39,6 @@ const question_2 = () => {
     return answer;
 }
 
-let explanation_2 = '';
-
 const question_3 = () => {
 
 // const multiplyNums = (num) => {
@@ -61,8 +54,6 @@ const question_3 = () => {
     let answer = { time: '', space: ''};
     return answer;
 }
-
-let explanation_3 = '';
 
 const question_4 = () => {
 
@@ -83,8 +74,6 @@ const question_4 = () => {
     return answer;
 }
 
-let explanation_4 = '';
-
 const question_5 = () => {
 
 // const badgerSong = (num, song) => {
@@ -101,8 +90,6 @@ const question_5 = () => {
     let answer = { time: '', space: ''};
     return answer;
 }
-
-let explanation_5 = '';
 
 const question_6 = () => {
 
@@ -127,8 +114,6 @@ const question_6 = () => {
     let answer = { time: '', space: ''};
     return answer;
 }
-
-let explanation_6 = '';
 
 
 // ==========================================
