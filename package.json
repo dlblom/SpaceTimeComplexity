@@ -4,24 +4,7 @@
   "description": "Exercises to help with understanding of Big O notation",
   "main": "index.js",
   "scripts": {
-    "jest": "jest --coverage --watchAll",
-    "test": "npm jest -- -u",
-    "build": "webpack -w --config webpack.config.js --mode production",
-    "start": "webpack-dev-server --open",
-    "server": "nodemon server/server.js"
-  },
-  "jest": {
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ],
-    "setupFiles": [
-      "./src/setupTests.js"
-    ],
-    "collectCoverage": false,
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}",
-      "!src/index.js"
-    ]
+
   },
   "repository": {
     "type": "git",
