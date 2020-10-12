@@ -1,6 +1,6 @@
 const q1 = {
-    constant: 'time', 
-    constant: 'space'
+    time: 'constant', 
+    space: 'constant'
 }
 
 const q2 = {
