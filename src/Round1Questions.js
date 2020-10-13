@@ -13,116 +13,111 @@
 // ============================
 
 const question_1 = () => {
+  const add = (num) => {
+    return num + 5;
+  };
 
-// const add = (num) => {
-//     return num + 5;
-// };
-
-    // answer using "Name"
-    let answer = { time: '', space: ''};
-    return answer;
-}
+  // answer using "Name"
+  let answer = { time: "constant", space: "constant" };
+  return answer;
+};
 
 const question_2 = () => {
+  const addLots = (num) => {
+    if (num > 3) num = 3;
+    let total;
+    for (let i = 0; i < num; i++) {
+      total += num;
+    }
+    return total;
+  };
 
-// const addLots = (num) => {
-//     if(num > 3) num = 3;
-//     let total;
-//     for(let i = 0; i < num; i++) {
-//         total += num;
-//     }
-//     return total;
-// }
-
-    // answer using "Big'O"
-    let answer = { time: '', space: ''};
-    return answer;
-}
+  // answer using "Big'O"
+  let answer = { time: "O(1)", space: "O(1)" };
+  return answer;
+};
 
 const question_3 = () => {
+  const multiplyNums = (num) => {
+    if (num < 10) num = 10;
+    let total;
+    for (let i = num; i > 0; i--) {
+      total *= i;
+    }
+    return total;
+  };
 
-// const multiplyNums = (num) => {
-//     if(num < 10) num = 10;
-//     let total;
-//     for(let i = num; i > 0; i--) {
-//         total *= i;
-//     }
-//     return total;
-// }
-
-    // answer using "Name"
-    let answer = { time: '', space: ''};
-    return answer;
-}
+  // answer using "Name"
+  let answer = { time: "linear", space: "constant" };
+  return answer;
+};
 
 const question_4 = () => {
+  const wackyWord = (word) => {
+    word = word || "jabberwocky";
+    if (word.length > 10) word = word.slice(0, 10);
+    let newWord = "";
+    for (let i = 0; i < word.length; i++) {
+      for (let i = 0; i < word.length; i++) {
+        newWord.concat(word[i]);
+      }
+    }
+    return newWord;
+  };
 
-// const wackyWord = (word) => {
-//     word = word || 'jabberwocky';
-//     if(word.length > 10) word = word.slice(0,10);
-//     let newWord = '';
-//     for(let i = 0; i < word.length; i++) {
-//         for(let i = 0; i < word.length; i++) {
-//             newWord.concat(word[i]);
-//         }
-//     }
-//     return newWord;
-// }
-
-    // answer using "Name"
-    let answer = { time: '', space: ''};
-    return answer;
-}
+  // answer using "Name"
+  let answer = { time: "constant", space: "constant" };
+  return answer;
+};
 
 const question_5 = () => {
+  const badgerSong = (num, song) => {
+    song = song || [];
+    let badger = "badger";
+    song.push(badger);
+    while (num > 0) {
+      badgerSong(num - 1, song);
+    }
+    return song.concat(["mushroom", "mushroom", "!!!"]);
+  };
 
-// const badgerSong = (num, song) => {
-//     song = song || [];
-//     let badger = 'badger';
-//     song.push(badger);
-//     while(num > 0) {
-//         badgerSong(num - 1, song);
-//     }
-//     return song.concat(['mushroom', 'mushroom', '!!!']);
-// }
-
-    // answer using "Big'O"
-    let answer = { time: '', space: ''};
-    return answer;
-}
+  // answer using "Big'O"
+  let answer = { time: "O(n)", space: "O(n^2)" };
+  return answer;
+};
 
 const question_6 = () => {
+  const hotMessOfArrays = () => {
+    let countdown = 2;
+    while (countdown > 0) {
+      let total;
+      for (let i = 0; i < 3; i++) {
+        total += countdown * 2;
+        let stuffArray = [];
+        for (let i = 100; i > 0; i--) {
+          total -= i;
+          let someArray = [];
+          stuffArray.push(someArray);
+        }
+      }
+    }
+    return total;
+  };
 
-// const hotMessOfArrays = () => {
-//     let countdown = 2;
-//     while(countdown > 0) {
-//         let total;
-//         for(let i = 0; i < 3; i++) {
-//             total += countdown * 2;
-//             let stuffArray = [];
-//             for(let i = 100; i > 0; i--) {
-//                 total -= i;
-//                 let someArray = []
-//                 stuffArray.push(someArray)
-//             }
-//         }
-//     }
-//     return total;
-// }
-
-    // answer using "Big'O"
-    let answer = { time: '', space: ''};
-    return answer;
-}
-
+  // answer using "Big'O"
+  let answer = { time: "O(1)", space: "O(1)" };
+  return answer;
+};
 
 // ==========================================
 // Do not change anything below this line
 // ==========================================
 
 exports = {
-    question_1, question_2, question_3,
-    question_4, question_5, question_6
-}
-
-
+  question_1,
+  question_2,
+  question_3,
+  question_4,
+  question_5,
+  question_6,
+};
